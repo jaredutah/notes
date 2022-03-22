@@ -19,6 +19,7 @@
     "@serverless-stack/resources": "0.69.2",
     "aws-cdk-lib": "2.15.0",
     "aws-sdk": "^2.1096.0",
+    "stripe": "^8.210.0",
     "uuid": "^7.0.3"
   }
 }
