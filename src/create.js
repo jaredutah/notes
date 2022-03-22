@@ -56,6 +56,6 @@ DELETE - curl -X DELETE https://5bv7x0iuga.execute-api.us-east-1.amazonaws.com/n
 // --identity-pool-id='us-east-1:90ef671f-2b0e-471f-905a-a9edeb5c8dd4' \
 // --invoke-url='https://geuu1yrkik.execute-api.us-east-1.amazonaws.com' \
 // --api-gateway-region='us-east-1' \
-// --path-template='/notes' \
+// --path-template='/billing' \
 // --method='POST' \
-// --body='{"content":"hello world","attachment":"hello.jpg"}'
+// --body='{"source":"tok_visa","storage":21}'
