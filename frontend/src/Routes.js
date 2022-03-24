@@ -15,6 +15,9 @@ import Settings from './containers/Settings';
 export default function Routes() {
   return (
     <Switch>
+      <Route exact path='/'>
+        <Home />
+      </Route>
       <UnauthenticatedRoute exact path='/login'>
         <Login />
       </UnauthenticatedRoute>
