@@ -11,5 +11,5 @@ export async function s3Upload(file) {
 }
 
 export async function s3Remove(filename) {
-  const stored = await Storage.vault.remove(filename)
+  Storage.vault.remove(filename);
 }
