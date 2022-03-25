@@ -7,6 +7,7 @@ export default class AuthStack extends sst.Stack {
 
   constructor(scope, id, props) {
     super(scope, id, props);
+    
     const { api, bucket } = props;
 
     // Create a Cognito User Pool and Identity Pool

@@ -8,6 +8,7 @@ export default class StorageStack extends sst.Stack {
   table;
 
   constructor(scope, id, props) {
+
     super(scope, id, props);
 
     // Create an S3 bucket
