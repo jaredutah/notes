@@ -1,8 +1,8 @@
 import { API } from 'aws-amplify';
 import React, { useState, useEffect } from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
-import { BsPencilSquare } from "react-icons/bs";
-import { LinkContainer } from "react-router-bootstrap";
+import { BsPencilSquare } from 'react-icons/bs';
+import { LinkContainer } from 'react-router-bootstrap';
 
 import { useAppContext } from '../lib/contextLib';
 import { onError } from '../lib/errorLib';

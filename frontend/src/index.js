@@ -10,6 +10,10 @@ import config from './config';
 
 import './index.css';
 
+//initialize error reporting
+import { initSentry } from './lib/errorLib';
+initSentry();
+
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,
@@ -48,6 +52,3 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-//initialize error reporting
-import { initSentry } from './lib/errorLib';
-initSentry();
